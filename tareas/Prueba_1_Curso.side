@@ -1,0 +1,398 @@
+{
+  "id": "c79d1977-6c9b-4897-9808-983fe8ee947b",
+  "version": "2.0",
+  "name": "Prueba_1_Curso",
+  "url": "http://songs-by-sinatra.herokuapp.com/",
+  "tests": [{
+    "id": "ed36b4ce-251f-433a-a586-5028441c7ce0",
+    "name": "Login",
+    "commands": [{
+      "id": "4c159026-79f0-4210-9be8-948717a4a166",
+      "comment": "",
+      "command": "open",
+      "target": "http://songs-by-sinatra.herokuapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5af2f1ec-b76f-4ece-ada9-06a4f52f66dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "832x722",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fde9f0fe-0257-447b-9d15-e8ca6a1fa66d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log in",
+      "targets": [
+        ["linkText=log in", "linkText"],
+        ["css=footer > a", "css:finder"],
+        ["xpath=//a[contains(text(),'log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35ace595-373b-459f-9090-cfb94de557e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06ad502-123b-43a5-8013-50c25edf490e",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "frank"
+    }, {
+      "id": "ee8be5d3-6430-4ac5-a496-aeac51d41470",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d933112-2f97-446c-beb3-9e135a01db63",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "sinatra"
+    }, {
+      "id": "1696782e-7099-4aea-a2a3-b09895995055",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Log In']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b70a2ea2-a121-4aa9-92b4-d6d3d5be5a18",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9e999252-3d63-4d81-b782-b748099aeb36",
+    "name": "Contact_email_sin_formato",
+    "commands": [{
+      "id": "06a7a516-7a15-41d1-81f7-a7f49dc77ca4",
+      "comment": "",
+      "command": "open",
+      "target": "http://songs-by-sinatra.herokuapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4daa0aa-9439-46c2-b505-cdc11aa4b992",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "832x722",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "954f421e-0f5c-4bad-9776-5092a2b8f0c9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact",
+      "targets": [
+        ["linkText=Contact", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/contact')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1856b3c1-0a12-411f-860b-2942340442c6",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3223b888-e191-4233-87a4-f40a17f1fd78",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ines"
+    }, {
+      "id": "cb8ea850-603b-4173-92cd-15694abe9493",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(5)",
+      "targets": [
+        ["css=label:nth-child(5)", "css:finder"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'Your Message:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16eeee0e-55c1-4bc2-bd6a-079a7b9d8cae",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "538dea0a-9a8c-42fc-8a3d-06ff7ff8a428",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Soto"
+    }, {
+      "id": "029cf420-d17d-4eea-aeb5-ccaefdbcf4c7",
+      "comment": "",
+      "command": "click",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b21ac28b-e96b-4c28-868a-515748191fda",
+      "comment": "",
+      "command": "type",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "pruebas"
+    }, {
+      "id": "ac00a85b-1749-4ef5-afe3-caae64fbe0ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Send Message']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6c5ebfc3-6cb9-42a5-91a3-52d1b7ec342b",
+    "name": "Contact_datos_correctos",
+    "commands": [{
+      "id": "349d6d26-18f7-45f0-be3e-7c3e2c2e5a5d",
+      "comment": "",
+      "command": "open",
+      "target": "http://songs-by-sinatra.herokuapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0df719a1-285c-416f-9725-6e5f79b1c8e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "832x722",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0169cb40-8240-45fa-8ef6-f2a34e28a763",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact",
+      "targets": [
+        ["linkText=Contact", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/contact')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d549b4cf-1b5d-411d-a0ed-57374cadf3ba",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bea9e75f-4471-4d89-a3a2-4090455fbd1e",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93259028-b213-4b24-8989-cee90a9591ce",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ines"
+    }, {
+      "id": "74b9bda9-0daf-4de0-9372-dfa1e37e2dcc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "014ba339-9de5-4a6e-9725-50be4a848d32",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "388eddc6-0377-4fc6-8b1b-e9aa3c3c7c4c",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "ines.soto.23@gmail.com"
+    }, {
+      "id": "062b193e-0700-4109-aa77-91937965a610",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=message",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c31767b3-87c0-4c36-8ab5-d282ddd7db6c",
+      "comment": "",
+      "command": "click",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42e7a889-df4b-4016-82ab-10b55ebfe937",
+      "comment": "",
+      "command": "type",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "prueba"
+    }, {
+      "id": "2224d830-b78b-4b38-955d-b04485ac017b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main",
+      "targets": [
+        ["css=.main", "css:finder"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1938ee15-c642-43a1-8283-6964b9a5f2b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Send Message']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a440d387-9696-4664-9954-9ef77612fb33",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#flash > div",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f4ce696d-d8c0-4ed2-ad28-59280540a856",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ed36b4ce-251f-433a-a586-5028441c7ce0"]
+  }],
+  "urls": ["http://songs-by-sinatra.herokuapp.com/"],
+  "plugins": []
+}
